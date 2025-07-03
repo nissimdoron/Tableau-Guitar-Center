@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מכירות גיטרות לפי סוג ומחיר</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+        }
+        header {
+            background-color: #b30000;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #b30000;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #b30000;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>מכירות גיטרות לפי סוג ומחיר</h1>
+    </header>
+    <nav>
+        <a href="index.html">דף הבית</a>
+        <a href="sales.html">מכירות לפי סוג ומחיר</a>
+        <a href="age_range.html">טווח גילאים של רוכשים</a>
+        <a href="quality_sales.html">איכות וכמות מכירות</a>
+    </nav>
+    <div class="container">
+        <h2>ניתוח מכירות גיטרות</h2>
+        <p>הדשבורד הבא מציג את נתוני המכירות של גיטרות חשמליות לפי סוג (Solid Body, Semi-Hollow, Hollow Body) וטווחי מחירים (תקציב, בינוני, פרימיום). תוכלו לראות אילו סוגי גיטרות פופולריים יותר, כיצד המחיר משפיע על המכירות, ואילו מותגים מובילים בשוק. השתמשו בדשבורד כדי לחקור את המגמות ולזהות הזדמנויות בשוק הגיטרות!</p>
+        <iframe src="https://public.tableau.com/views/GuitarSales/sheet6?:language=en-US&:display_count=n&:origin=viz_share_link" title="Guitar Sales Dashboard"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2025 עולם הרוק והמטאל. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>
